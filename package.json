@@ -6,6 +6,8 @@
     "engines": {
         "vscode": "^1.30.0"
     },
+    "repository": "https://github.com/dpfg/mastoid-color-theme-vsc",
+    "publisher": "dpfg",
     "categories": [
         "Themes"
     ],
