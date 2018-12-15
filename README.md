@@ -1,0 +1,1 @@
+# mastoid-color-theme-vsc
