@@ -1,0 +1,325 @@
+{
+	"name": "mastoid-color-theme-vsc",
+	"type": "light",
+	"colors": {
+		"editor.background": "#F9F9F9",
+		"editorCursor.foreground": "#000000",
+		"editor.foreground": "#000000",
+		"editorWhitespace.foreground": "#BFBFBF",
+		"editor.lineHighlightBackground": "#00000012",
+		"editor.selectionBackground": "#F6EBBC",
+		"activityBar.background": "#1D252C",
+		"activityBar.border": "#333F4A",
+		"activityBar.dropBackground": "#333F4A",
+		"activityBar.foreground": "#fff",
+		"activityBarBadge.background": "#d1d9e0",
+		"activityBarBadge.foreground": "#181e24",
+		"statusBar.background": "#171d23",
+		"statusBar.border": "#1D252C",
+		"statusBar.debuggingBackground": "#171d23",
+		"statusBar.debuggingForeground": "#333F4A",
+		"statusBar.foreground": "#aaa",
+		"statusBar.noFolderBackground": "#171d23",
+		"statusBar.noFolderForeground": "#aaa",
+		"statusBarItem.activeBackground": "#333F4A",
+		"statusBarItem.hoverBackground": "#333F4A",
+		"statusBarItem.prominentBackground": "#171d23",
+		"statusBarItem.prominentHoverBackground": "#333F4A",
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#FFFFFF",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#006600"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#336699"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#33AAAA"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#006600"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": "constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable.language",
+				"variable.other"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"constant.character.escaped",
+				"constant.character.escape",
+				"string source"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "",
+				"background": "#DBFFDB"
+			}
+		},
+		{
+			"name": "Preprocessor line",
+			"scope": "other.preprocessor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#1A921C"
+			}
+		},
+		{
+			"name": "Preprocessor directive",
+			"scope": "entity.name.preprocessor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0C450D"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": [
+				"entity.name.function",
+				"keyword.other.name-of-parameter.objc"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"foreground": "#111111"
+			}
+		},
+		{
+			"name": "Inherited class name",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Function parameter",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Function argument and result types",
+			"scope": "storage.type.method",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#70727E"
+			}
+		},
+		{
+			"name": "Section",
+			"scope": [
+				"meta.section entity.name.section",
+				"declaration.section entity.name.section"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Library object",
+			"scope": [
+				"support.class",
+				"support.type"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "JS: Operator",
+			"scope": "keyword.operator.js",
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#990000",
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Invalid trailing whitespace",
+			"scope": "invalid.trailing-whitespace",
+			"settings": {
+				"background": "#FFD0D0"
+			}
+		},
+		{
+			"name": "Embedded source",
+			"scope": [
+				"text source",
+				"string.unquoted"
+			],
+			"settings": {
+				"background": "#427FF51A"
+			}
+		},
+		{
+			"name": "Markup XML declaration",
+			"scope": [
+				"meta.xml-processing",
+				"declaration.xml-processing"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4F4F4F"
+			}
+		},
+		{
+			"name": "Markup DOCTYPE",
+			"scope": [
+				"meta.doctype",
+				"declaration.doctype"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#888888"
+			}
+		},
+		{
+			"name": "Markup DTD",
+			"scope": [
+				"meta.doctype.DTD",
+				"declaration.doctype.DTD"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markup tag",
+			"scope": [
+				"meta.tag",
+				"declaration.tag"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#336699"
+			}
+		},
+		{
+			"name": "Markup name of tag",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markup tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markup: Heading",
+			"scope": "markup.heading",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#336699"
+			}
+		},
+		{
+			"name": "Markup: Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Markup: List",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#B90690"
+			}
+		}
+	]
+}

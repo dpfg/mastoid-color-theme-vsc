@@ -1,0 +1,21 @@
+{
+    "name": "mastoid-color-theme-vsc",
+    "displayName": "mastoid-color-theme-vsc",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "mastoid-color-theme-vsc",
+                "uiTheme": "vs",
+                "path": "./themes/mastoid-color-theme-vsc-color-theme.json"
+            }
+        ]
+    }
+}
